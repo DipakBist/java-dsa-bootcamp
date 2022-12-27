@@ -7,8 +7,8 @@ public class IsPrime {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the number:");
         int number = in.nextInt();
-        boolean isprime=isPrime(number);
-        if (isprime==true){
+        boolean isprime = isPrime(number);
+        if (isprime == true){
             System.out.println("The entered number is prime number");
         }else System.out.println("The entered number is not a prime number");
     }
